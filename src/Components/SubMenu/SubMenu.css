@@ -1,0 +1,80 @@
+
+  .delete_icon{
+    font-size: 24px;
+  }
+  .delete_icon:hover{
+    color: #15324B;
+    
+  }
+
+  .modal-main{
+      position: fixed;
+      left:0;
+      top: 0;
+      right: 0;
+      bottom:0;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      align-items:center;
+      justify-content: center;
+      z-index: 1;
+  }
+
+  .modal{
+      width: 50%;
+      height:50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .modal-header{
+      font-size: 20px;
+      align-self: flex-start;
+  }
+
+  .modal-body{
+      align-self: flex-start;
+  }
+
+  .modal-footer{
+      align-self: flex-end;
+  }
+
+  .confirmbtn{
+      font-size: 16px;
+      margin-right: 10px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 1px solid #15324B;
+      color:#15324B;
+      background-color: transparent;
+
+  }
+
+  .confirmbtn:hover{
+    color:white;
+    background-color: #15324B;
+
+}
+
+  .cancelbtn{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #15324B;
+    color:#15324B;
+    background-color: transparent;
+
+}
+
+.cancelbtn:hover{
+    border: 1px solid #15324B;
+    color:white;
+    background-color: #15324B;
+
+}
+
+  

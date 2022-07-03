@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar {
+  display: flex;
+  width: 104%;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eaecee;
+  border-bottom: 1px solid #15324B;
+}
+
+
+
+.logo {
+  margin-left: 20px;
+  color: #15324B;
+  font-family: "Poppins";
+  transition: all 0.3s linear;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navitems{
+  margin-left:20px;
+  list-style: none; 
+}
+.navitem{
+  margin-left:20px;
+  list-style: none; 
+}
+
+.item-links {
+  text-decoration: none;
+  color: #15324B;
+  font-family: "Poppins";
+  transition: all 0.3s ease 0s;
+  display: block;
+  cursor: pointer;
+}
+
+.item-links:hover {
+  color: #15324B;
+}
+
+.displayname{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #15324B;
+
+}
+
+.navprofileimg {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.displayname:hover{
+  border: 1px solid #15324B;
+  
+}
+
+.togglebtn {
+  display: none;
+  font-size: 24px;
+}
+
+.itemlist{
+  list-style: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navlogo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .navlinks {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    height: 0;
+    margin:0;
+    transition: all 0.3s linear;
+    
+  }
+
+  .active {
+    display: block;
+    height: 200px;
+    
+  }
+
+  .navitems {
+    width: 70%;
+    margin: 5px;
+    float:center ;
+    text-align: right;
+  }
+  
+  .togglebtn{
+    display: block;
+  }
+
+ 
+
+}

@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.commentInputtab{
+  width: 100%;
+  padding: 0px 10px;
+}
+.commentform{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.createComment {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  color: #15324B;
+  border: 1px solid #15324B;
+}
+
+.commentSubmit {
+  margin-top: 5px;
+  background-color: white;
+  color: #15324B;
+  border: #15324B 1px solid;
+  padding: 6px 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.commentSubmit:hover {
+  background-color: #15324B;
+  color: white;
+}
+
+.comment {
+  display: flex;
+  padding: 0px 5px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.comment-userpic {
+  margin-right: 5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.comment-username {
+  color: #15324B;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
+}
+
+.comment-timestamp {
+  font-size: 12px;
+}
+
+.comment-userdetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-tab {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border:1px solid #15324B;
+  }
+
+  .comment-text{
+    font-family: 'Poppins', sans-serif;
+      font-weight:200;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #15324B;
+    background-color: white;
+    border: 1px solid #15324B;
+    border-radius: 5px;
+  }
+  .commentmenudiv{
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment-menu{
+    font-size: 24px;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#15324B; 
+    border-radius: 50%;
+}
+
+.comment-menu:hover{
+    color:#15324B; 
+    background-color: white;
+}
+
+.deleteicon:hover{
+  color: white;
+}
+
+.replySection{
+  margin-top: 10px;
+}
+
+.replyInputtab{
+  width: 100%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.replyform{
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.createReply{
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  color: #15324B;
+  border: 1px solid #15324B;
+}
+
+.replySubmit {
+  margin-top: 5px;
+  background-color: white;
+  color: #15324B;
+  border: #15324B 1px solid;
+  padding: 6px 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.replySubmit:hover {
+  background-color: #15324B;
+  color: white;
+}
+
+.replys{
+  display:flex;
+  align-items: center;
+  margin:10px 0px 10px 40px ;
+}
+
+.viewComments{
+  max-height: 500px;
+  box-sizing: border-box;
+  overflow-y: overlay;
+  scrollbar-gutter: stable;
+}
+
+.viewComments::-webkit-scrollbar {
+  width: 2px;
+
+}
+ 
+
+ 
+.viewComments::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid #15324B;
+}
+
+.sidebar {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  color: #15324B;
+  background-color: white;
+  border: 1px solid #15324B;
+  border-radius: 5px;
+  min-height: 400px;
+  max-height: 700px;
+  overflow-y: overlay;
+  scrollbar-gutter: stable;
+}
+
+
+.sidebar::-webkit-scrollbar {
+  width: 2px;
+
+}
+.p{
+  color: #15324B;
+  text-align: center;
+}
+ 
+
+ 
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid #15324B;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.blog-item {
+  width: 95%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  color: #15324B;
+  background-color: white;
+  border: 1px solid #15324B;
+  border-radius: 5px;
+  font-family: "Poppins";
+}
+
+.blog-item-header >h3 {
+  margin:5px 0px;
+}
+
+.blog-user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-user-detail{
+  display: flex;
+  
+}
+
+.blog-user-menu{
+  display: flex;
+  float: right;
+  margin-bottom: 2%;
+}
+
+
+.userPic{
+  margin-left: 5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.blog-username {
+  color: #15324B;
+  margin: 0 0 0 10px;
+  padding: 0px;
+}
+
+
+.blog-item-content{
+  margin: 5px 50px;
+}
+
+.postImage{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.previewpostImage{
+  width: 100%;
+  height:500px;
+  border-radius: 10px;
+}
+
+.postCommentSection{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  color: #15324B;
+  background-color: white;
+  border: 1px solid #15324B;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  
+}
+
+.viewcommentbtn{
+  cursor: pointer;
+  font-size: 24px;
+  
+}
+.viewcommentbtn:hover{
+  cursor: pointer;
+  color: #15324B;
+  align-items:center;
+
+}
+
+
+.sharebtn, .commentbtn{
+  cursor: pointer;
+  font-size: 24px;
+  
+}
+.sharebtn:hover , .commentbtn:hover ,.likebtn:hover{
+  cursor: pointer;
+  color: #15324B;
+  align-items:center;
+
+}
+
+.dropdown{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #15324B;
+  width: 100px;
+  border-radius: 8px;
+  z-index: 1;
+  cursor: pointer;
+  margin-top: 0;
+  right: 0;
+}
+
+.droplink {
+  color:#15324B;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown_content a:hover {
+  background-color: #15324B;
+  border-radius: 8px;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+  float: right;
+}
+.user-menu{
+  
+  font-size: 20px;
+}
+.user-menu:hover{
+  color: #15324B;
+  
+}
+
+
+
+
+.blogtime{
+  font-family: 'Poppins', sans-serif;
+  font-weight:200;
+  font-size: 12px;
+}
+
+.post-menu{
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.likedbtn{
+  cursor: pointer;
+  font-size: 24px;
+  color: #15324B;
+}
+
+.likebtn{
+  cursor: pointer;
+  font-size: 24px;
+  color:rgba(84, 125, 166, 0.724)
+}
+.comment_right{
+  display: flex;
+  flex:right;
+}

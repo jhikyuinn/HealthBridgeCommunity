@@ -1,0 +1,27 @@
+.sidebar {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  color: #15324B;
+  background-color: white;
+  border: 1px solid #15324B;
+  border-radius: 5px;
+  min-height: 400px;
+  max-height: 700px;
+  overflow-y: overlay;
+  scrollbar-gutter: stable;
+}
+
+
+.sidebar::-webkit-scrollbar {
+  width: 2px;
+
+}
+ 
+
+ 
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid #15324B;
+}

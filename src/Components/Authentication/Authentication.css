@@ -1,0 +1,15 @@
+.signinbutton {
+  background-color: white;
+  color: #15324B;
+  border: #15324B 1px solid;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.signinbutton:hover {
+  background-color: #15324B;
+  color: white;
+}
+
